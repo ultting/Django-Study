@@ -5,8 +5,9 @@
 # git에 push 하는 법
 # Source Control -> + 클릭 -> Commit 메세지 -> Check 표시 
 
-print('Hello Django')
-print('VS Code 와 Git hub 연동 테스트')
+# 장고 서버 실행할떈 python manage.py runserver
+# 서버를 멈추고 싶을땐 Ctrl+c
+# 서버의 포트를 바꾸고 싶을땐 python manage.py runserver ####
 
 # 표준 라이브러리 import
 from __future__ import absolute_import
