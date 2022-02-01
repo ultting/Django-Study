@@ -7,3 +7,11 @@
 
 print('Hello Django')
 print('VS Code 와 Git hub 연동 테스트')
+
+# 표준 라이브러리 import
+from __future__ import absolute_import
+from math import sqrt
+from os.path import abspath
+# 코어 장고 임포트
+import Django
+print(Django.__path__)
