@@ -31,7 +31,16 @@
 # 그 다음 view로 이동한 후 맞는 함수를 실행
 # 이때 httResponse 를 클라이언트에 호출
 
-# 다음 강의 https://www.youtube.com/watch?v=7ovAmZjDWmk&list=PLuHgQVnccGMDLp4GH-rgQhVKqqZawlNwG&index=7
+# - Database
+# - Model(Django 내장)
+# - Security 웹 보안
+# - .py .html 코드 분리하기 위해 Template Engine 사용
+
+# Django html 과 py 분리하기
+# 해당 프로젝트안에 템플릿 폴더 생성 
+# 생성폴더 안데 .html 파일 생성
+# settings.py 에 templates 에 dirs 부분경로 수정
+# views 에 render 를 이용해 연결
 
 # 표준 라이브러리 import
 from __future__ import absolute_import

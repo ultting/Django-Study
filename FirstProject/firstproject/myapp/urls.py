@@ -19,6 +19,7 @@ from myapp import views
 
 urlpatterns = [
     path('', views.index),
+    path('test/', views.test, name='test'),
     path('create/', views.create), # http://ip/create/
     path('read/<id>/', views.read), # http://ip/read/1/
     path('delete/', views.delete),

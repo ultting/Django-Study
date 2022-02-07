@@ -2,7 +2,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, HttpResponse, redirect
 from django.views.decorators.csrf import csrf_exempt # 면제
- 
+
 import random
 
 # Create your views here.
@@ -45,6 +45,7 @@ def HTMLTemplate(articleTag, id=None):
             <li><a href="/create/">create</a></li>
             {contextUI}
         </ul>
+        
     </body>
     </html>
     '''
@@ -127,3 +128,6 @@ def update(request, id):
                 topic['body'] = body
         return redirect(f'/read/{id}')
     
+def test(request):
+    
+    return render(request, 'base.html')
