@@ -9,6 +9,9 @@
 # 1. python 설치
 # 2. pip install django
 # 3. django-admin startproject ( project name )
+# 가상환경이 가장 중요
+# https://axce.tistory.com/65 장고 생성
+
 
 # 현재 경로 기준 서버로 가는 명령어
 # cd FirstProject -> cd firstproject
