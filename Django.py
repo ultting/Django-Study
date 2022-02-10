@@ -34,6 +34,13 @@
 # 그 다음 view로 이동한 후 맞는 함수를 실행
 # 이때 httResponse 를 클라이언트에 호출
 
+## 모델 생성 순서
+# 개발 프로젝트에 models.py 에 모델 생성 ( 테이블 )
+# settings.py에 INSTALLED_APPS 에 추가 ( 파일명.apps.파일명Config)
+# 터미널에서 python manage.py makemigration 폴더명
+# sql 실행 될 내용 미리보기 python manage.py sqlmigrate 폴더명 파일이름
+# 최종확인이 끝난 후 python manage.py migrate
+
 # - Database
 # - Model(Django 내장)
 # - Security 웹 보안

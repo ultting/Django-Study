@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'myapp.apps.MyappConfig', # 모델 추가 할때 하는 방법
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
