@@ -48,7 +48,7 @@
 
 # Django html 과 py 분리하기
 # 해당 프로젝트안에 템플릿 폴더 생성 
-# 생성폴더 안데 .html 파일 생성
+# 생성폴더 안에 .html 파일 생성
 # settings.py 에 templates 에 dirs 부분경로 수정
 # views 에 render 를 이용해 연결
 
