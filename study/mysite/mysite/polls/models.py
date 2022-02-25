@@ -27,10 +27,18 @@ class Choice(models.Model):
         return self.choiceText
     
     
-class Article(models.Model):
-    name = models.CharField(max_length=50)
-    title = models.CharField(max_length=50)
-    contents = models.TextField()
-    url = models.URLField()
-    email = models.EmailField()
-    cdate = models.DateTimeField(auto_now_add=True)
+# class Article(models.Model):
+#     name = models.CharField(max_length=50)
+#     title = models.CharField(max_length=50)
+#     contents = models.TextField()
+#     url = models.URLField()
+#     email = models.EmailField()
+#     cdate = models.DateTimeField(auto_now_add=True)
+
+# 회원가입
+class Register(models.Model):
+    id = models.CharField(max_length=50, primary_key=True)
+    password = models.CharField(max_length=10)
+    nick = models.CharField(max_length=20)
+    phone = models.CharField(max_length=20)
+    email = models.CharField(max_length=40)
